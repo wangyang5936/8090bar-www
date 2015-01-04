@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*
+ * Author : Lensic
+ * Blog   : http://lensic.sinaapp.com/
+ */
+
+/* 全局样式 */
+*{margin:0px; padding:0px;}
+body{font:12px "宋体";}
+a{text-decoration:none; color:#000;}
+a:hover{text-decoration:none; color: blue}
+a img{border:none;}
+.cls{clear:both;}
+li{list-style:none;}
+img{vertical-align:middle; margin-top:-4px;}
+
+/* 分页样式 */
+.page_container{margin:0px auto;}
+.page_style{float:left;}
+.page_style a{display:block; float:left; font-size:14px; line-height:24px; text-align:center; margin-right:5px; color:#666; border:1px solid #d7d7d7; padding:0px 8px; border-radius:3px;}
+.page_style a:hover{background:#f1f1f1; text-decoration:none;}
+a.page_in{font-weight:bold; border:none; color:#444; cursor:auto;}
+a.page_in:hover{background:none;}
